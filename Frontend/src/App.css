@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin-right: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url("../src/images/resume.jpg")
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 2px;
+  animation-name: resume;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: initial;
+}
+
+@keyframes resume {
+  from {
+    width: 1900px;
+    top: 10px;
+  }
+  to {
+    width: 150px;
+    top: 100px;
+  }
+}
+
+.heading1{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 1rem;
+  color:#111;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+}
+
+.heading2{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 1rem;
+  color:#111;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 3%;
+}
+
+.column{
+  padding: 20px;
+  position: relative;
+  margin-left: 10%;
+  height: 560px;
+  width: 500px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.input{
+  padding: 7px;
+  margin-top: 10px;
+  width: 25%;
+  margin-top: 1px;
+  margin-left: 38%;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.edu1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top: 1px;
+}
+
+.edu1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin-top: 1px;
+}
+
+.work1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin-top: 1px;
+}
+
+.work2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin-top: 1px;
+}
